@@ -83,7 +83,7 @@ gulp.task('build', function(callback) {
 });
 
 gulp.task('build-common', function(callback) {
-    sequence('cleanup', 'js', callback);
+    sequence('svg','cleanup', 'js', callback);
 });
 
 gulp.task('build-dev', function(callback) {
