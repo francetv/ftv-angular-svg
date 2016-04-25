@@ -1,33 +1,54 @@
-FTVEN - Angular SVG
-========================
+# Ftv::Components::SVG
 
-Angular SVG
+Angular module to manage svg.
 
-# Get sources
+## Get sources
 
 ```
 git clone git@gitlab.ftven.net:team-infini/ftv-angular-svg.git
 ```
 
+## How to use
 
-# Required dependencies
+Include javascript
 
-- [npm](https://nodejs.org/)
-- [gem](https://rubygems.org/)
+```js
+<script src="dist/component.js"></script>
+```
 
-# Installation process
+Include your svg in "svg" folder, then run gulp task
 
 ```
-sudo apt-get install ruby ruby-dev gem
+gulp build
+```
+
+Use directive
+
+```html
+<ftv-svg svg="'filename'"></ftv-svg>
+```
+
+## Build only svg
+
+```
+gulp svg
+```
+
+## Required dependencies
+
+- [npm](https://nodejs.org/)
+
+## Build process
+
+```
 npm install -g gulp
 
 npm install
-gem update --system
 
 gulp build
 ```
 
-# Development build for front web only
+## Development build for front web only
 
 ```
 gulp build-dev-watch
@@ -36,9 +57,9 @@ gulp build-dev-watch
 ## Demo
 
 ```
+gulp build
 npm install -g http-server
 http-server
-gulp build
 ```
 
 Open [demo](http://127.0.0.1:8080/demo.html)
