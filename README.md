@@ -1,13 +1,14 @@
-FTVEN - Popin Generic
+FTVEN - Angular SVG
 ========================
 
-Generic popin
+Angular SVG
 
 # Get sources
 
 ```
-git clone git@gitlab.ftven.net:team-infini/ftv-angular-popin-generic.git 
+git clone git@gitlab.ftven.net:team-infini/ftv-angular-svg.git
 ```
+
 
 # Required dependencies
 
@@ -22,7 +23,6 @@ npm install -g gulp
 
 npm install
 gem update --system
-gem install compass
 
 gulp build
 ```
