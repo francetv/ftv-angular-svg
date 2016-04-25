@@ -1,0 +1,1 @@
+angular.module("ftv.components.svg.templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("/svg/index.html","<svg class=\"{{svg}}\"><use xlink:href=\"{{svgId}}\"></use></svg>");}]);

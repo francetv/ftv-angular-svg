@@ -1,0 +1,6 @@
+{
+  "name": "ftv-angular-svg",
+  "dependencies": {
+    "angular": "angularjs#1.5.2"
+  }
+}
