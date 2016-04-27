@@ -12,7 +12,7 @@ git clone git@gitlab.ftven.net:team-infini/ftv-angular-svg.git
 
 Include javascript
 
-```js
+```html
 <script src="dist/component.js"></script>
 ```
 
