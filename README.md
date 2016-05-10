@@ -1,3 +1,5 @@
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 # Ftv::Components::SVG
 
 Angular module to manage svg.
