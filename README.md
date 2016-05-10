@@ -1,11 +1,13 @@
 # Ftv::Components::SVG
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 Angular module to manage svg.
 
 ## Get sources
 
 ```
-git clone git@gitlab.ftven.net:team-infini/ftv-angular-svg.git
+git clone git@github.com:francetv/ftv-angular-svg.git
 ```
 
 ## How to use
@@ -63,6 +65,3 @@ http-server
 ```
 
 Open [demo](http://127.0.0.1:8080/demo.html)
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
