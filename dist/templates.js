@@ -17,4 +17,5 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
 angular.module("ftv.components.svg.templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("/svg/index.html","<svg class=\"{{svg}}\"><use xlink:href=\"{{svgId}}\"></use></svg>");}]);
