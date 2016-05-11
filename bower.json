@@ -1,7 +1,7 @@
 {
   "name": "ftv-angular-svg",
   "version": "1.0.0",
-  "description": "France TV - Infini - Touchevents",
+  "description": "France TV - Infini - SVG",
   "main": "dist/component.min.js",
   "authors": [
     "France Télévisions"
