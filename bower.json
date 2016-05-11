@@ -1,5 +1,19 @@
 {
   "name": "ftv-angular-svg",
+  "version": "1.0.0",
+  "description": "France TV - Infini - Touchevents",
+  "main": "dist/component.min.js",
+  "authors": [
+    "France Télévisions"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/francetv/ftv-angular-svg",
+  "ignore": [
+    "node_modules",
+    ".gitignore",
+    "component.js",
+    "gulpfile.js"
+  ],
   "dependencies": {
     "angular": "angularjs#1.5.2"
   }
